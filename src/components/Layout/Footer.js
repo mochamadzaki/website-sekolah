@@ -3,7 +3,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import YouTubeIcon from "@mui/icons-material/YouTube";
-import FacebookIcon from "@mui/icons-material"
+
 
 // import SupportAgentIcon from "@mui/icons-material/SupportAgent";
 // import MailIcon from "@mui/icons-material/Mail";
@@ -102,7 +102,7 @@ const Footer = () => {
           {/* icons */}
           <a href="https://instagram.com/smkbb.official?igshid=NTdlMDg3MTY=" style={{color:'white'}}>
           <InstagramIcon /></a>
-          <FacebookIcon />
+          <TwitterIcon />
           <GitHubIcon />
          <a href="https://youtube.com/@SMKBudayaBangsa" style={{color:'white'}}> <YouTubeIcon /></a>
         </Box> 
