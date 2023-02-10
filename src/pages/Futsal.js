@@ -32,7 +32,7 @@ const Futsal = () => {
         }}
       >
         <div style={{height: '90vh'}}>
-       <img src={futsal} style={{ width: "150px", height: "150px",my: 2}}/>
+       <img src={futsal} style={{ width: "150px", height: "150px",my: 2 ,marginTop:'40px'}}/>
       <Typography variant="h4">Futsal</Typography>
         <Typography variant="h6">Smk Budaya Bangsa</Typography>
         <br/>

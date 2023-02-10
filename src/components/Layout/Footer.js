@@ -3,6 +3,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import YouTubeIcon from "@mui/icons-material/YouTube";
+import FacebookIcon from "@mui/icons-material"
 
 // import SupportAgentIcon from "@mui/icons-material/SupportAgent";
 // import MailIcon from "@mui/icons-material/Mail";
@@ -73,6 +74,7 @@ import {
   FaFax,
   FaEnvelope,
   FaGlobe,
+  FaInstagram,
 } from "react-icons/fa";
 
 const Footer = () => {
@@ -91,7 +93,7 @@ const Footer = () => {
               mr: 2,
             },
             "& svg:hover": {
-              color: "goldenrod",
+              color: "#E5CDA7",
               transform: "translateX(5px)",
               transition: "all 400ms",
             },
@@ -99,10 +101,10 @@ const Footer = () => {
         >
           {/* icons */}
           <a href="https://instagram.com/smkbb.official?igshid=NTdlMDg3MTY=" style={{color:'white'}}>
-          <InstagramIcon />smkbudayabangsa</a>
-          <TwitterIcon />
+          <InstagramIcon /></a>
+          <FacebookIcon />
           <GitHubIcon />
-          <YouTubeIcon />
+         <a href="https://youtube.com/@SMKBudayaBangsa" style={{color:'white'}}> <YouTubeIcon /></a>
         </Box> 
         </Box>
       <div className="container footer">
@@ -111,21 +113,7 @@ const Footer = () => {
           <img src="skolah.png" alt="logo"  style={{width:'100px',height: '100px',marginLeft: '50px',marginTop:'30px'}}/>
           <p className="u-text-small" style={{marginLeft: '25px'}}>&copy; Smk Budaya Bangsa</p>
         </div>
-        <div className="footer-box">
-          <h4>Support</h4>
-          <div className="footer-links">
-            <a href="#">&bull; Support</a>
-            <a href="#">&bull; About</a>
-            <a href="#">&bull; Learn</a>
-            <a href="#">&bull; Hosting</a>
-            <a href="#">&bull; Messenger</a>
-          </div>
-        </div>
-        {/* <div className="footer-box">
-          <h4>Support</h4>
-          <div className="footer-links">
-          </div>
-        </div> */}
+  
         <div className="footer-box">
           <h4>Contact Us</h4>
           <div className="footer-contact u-text-small">

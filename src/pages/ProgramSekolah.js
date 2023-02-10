@@ -47,13 +47,13 @@ const Visimisi = () => {
      </ol>
       <br/>
       <br/>
-      <Typography variant="h6">Konsep Dasar Smart School</Typography>
-      Sekolah pintar atau smart school merupakan suatu konsep sekolah yang berbasis teknologi yang digunakan dalam proses belajar-mengajar di kelas. Penggunaan teknologi pendidikan mencakup suatu sistem terintegrasi yang membantu komunitas pendidikan dalam menjalankan fungsinya masing-masing dengan tujuan mengembangkan potensi peserta didik.
+      <Typography variant="h6" style={{marginLeft:'100px',marginRight:'100px',textAlign:'center'}}>Konsep Dasar Smart School</Typography>
+      <Typography style={{marginLeft:'100px',marginRight:'100px',textAlign:'left'}}>Sekolah pintar atau smart school merupakan suatu konsep sekolah yang berbasis teknologi yang digunakan dalam proses belajar-mengajar di kelas. Penggunaan teknologi pendidikan mencakup suatu sistem terintegrasi yang membantu komunitas pendidikan dalam menjalankan fungsinya masing-masing dengan tujuan mengembangkan potensi peserta didik.
 Pada dasarnya, penggunaan teknologi dalam bidang pendidikan adalah untuk membantu proses belajar dan meningkatkan kinerja dengan membuat, menggunakan, dan mengelola proses dan sumber teknologi yang memadai.
-Sedangkan tujuan utama teknologi dalam pembelajaran adalah
-(1) untuk memecahkan masalah belajar atau memfasilitasi pembelajaran; dan
+Sedangkan tujuan utama teknologi dalam pembelajaran adalah <br/>
+(1) untuk memecahkan masalah belajar atau memfasilitasi pembelajaran; dan<br/>
 (2) untuk meningkatkan kinerja. Penggunaan teknologi berbasis internet dalam bidang pendidikan ini membantu interaksi antara komunitas sekolah, siswa dan guru misalnya semakin lebih mudah.
-        </div>
+       </Typography> </div>
         </Box>
        
     </Layout>

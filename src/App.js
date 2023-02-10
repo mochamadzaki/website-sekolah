@@ -11,6 +11,8 @@ import Artikel from "./pages/Artikel"
 import Visimisi from "./pages/Visimisi"
 import ProgramSekolah from "./pages/ProgramSekolah"
 import Pagenotfound from "./pages/Pagenotfound"
+import RPL from "./pages/RPL"
+import TBSM from "./pages/TBSM"
 import Card from"./Card";
 
 function App() {
@@ -24,7 +26,9 @@ function App() {
           <Route path="/Pramuka" element={<Pramuka/>}/>
           <Route path="/Sispala" element={<Sispala/>}/>
           <Route path="/Visimisi" element={<Visimisi/>}/>
-          <Route path="/ProgramSekolah"element={<ProgramSekolah/>}/>   
+          <Route path="/ProgramSekolah"element={<ProgramSekolah/>}/>  
+          <Route path="/RPL" element={<RPL/>}/>
+          <Route path="/TBSM" element={<TBSM/>}/> 
           <Route path="/Futsal" element={<Futsal />}/>
           <Route path="/Artikel" element={<Artikel />} />
           <Route path="*" element={<Pagenotfound />} />

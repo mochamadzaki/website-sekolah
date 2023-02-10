@@ -5,6 +5,7 @@ import "../styles/HomeStyles.css";
 import paasep from "../images/paasep.jpg"
 import icon from "../images/icon.jpg"
 import rpl from "../images/rpl.jpg"
+import tbsm from "../images/tbsm.png"
 import {Box, Icon, Typography} from '@mui/material'
 
 function ImageWithCaption(props) {
@@ -18,20 +19,21 @@ function ImageWithCaption(props) {
 const Home = () => {
   return (  
     <Layout>
-      <div className="home" style={{ backgroundImage: `url(${gedung})`,opacity:'0.5'}}>
-          <h3 style={{zIndex:'1'}}>SELAMA DATANG DI WEBSITE</h3>
-          <p>Smk Budaya Bangsa</p>
-    
+      <div className="home" style={{ backgroundImage: `url(${gedung})`}}>
+        <div>
+          <h3 style={{marginTop:'320px',color:'white'}}>SELAMAT DATANG DI WEBSITE</h3>
+          <p style={{color:'white',textAlign:'center'}}>Smk Budaya Bangsa</p>
+    </div>
         </div>
       
       
  
-    <div className="page" style={{ display: "flex",paddingleft: "100px",height:'90vh' }}>
+    <div className="page" style={{ display: "flex",paddingleft: "100px",height:'90vh',backgroundColor:'#E5CDA7' }}>
     <div style={{ paddingLeft: "60px" ,marginTop:'100px',paddingRight:'50'}}>
       <img src={paasep} alt={paasep.alt} style={{ width: "300px", height: "300px" ,paddingLeft:'50px',paddingTop:'50px' }}></img>
-        <h1 variant="h6" style={{paddingLeft:'90px',fontSize:'20px'}}>Ir.Asep Ali Basah</h1>
-        <p style={{paddingLeft:'40px'}}>
-        Kepala Sekolah Smk Budaya Bangsa</p>
+        <h1 variant="h6" style={{paddingLeft:'50px',fontSize:'20px'}}>Ir.Asep Ali Basah S.Pd,M.M</h1>
+        <p style={{paddingLeft:'40px',textAlign:'center'}}>
+        Kepala Sekolah <br/> Smk Budaya Bangsa</p>
       </div>
       
       <div style={{ paddingLeft: "70px" ,marginTop:'50px',paddingRight:'50',marginRight:'50px'}}>
@@ -47,20 +49,27 @@ Akhirnya kami mengharapkan masukan dari berbagai pihak untuk website ini agar ka
         </p>
       </div>
     </div>
-<h1 style={{textAlign:'center',height:'10vh',marginTop:'5vh'}}>Program Studi</h1>
-    <div className="page" style={{ display: "flex",paddingleft: "100px",height:'80vh'}}>
-    <div style={{ paddingLeft: "70px" ,marginTop:'25px',paddingRight:'50'}}>
-      <img src={icon} alt={paasep.alt} style={{ width: "150px", height: "150px" ,paddingLeft:'50px',paddingTop:'50px' }}></img>
-        <h1 variant="h6" style={{paddingLeft:'90px',fontSize:'20px',}}>Ir.Asep Ali Basah</h1>
-        <p style={{paddingLeft:'40px'}}>
-        Kepala Sekolah Smk Budaya Bangsa</p>
+
+
+<h1 style={{textAlign:'center',height:'10vh',paddingTop:'2vh'}}>Program Studi</h1>
+    <div className="page" style={{ display: "flex",paddingleft: "50px",height:'80vh',marginLeft:'200px'}}>
+    <div style={{marginTop:'25px'}}>
+      <img src={rpl} alt={paasep.alt} style={{ width: "150px", height: "170px" ,marginLeft:'50px',marginTop:'20px'}}></img>
+        <h1 variant="h6" style={{fontSize:'20px',marginLeft:'10px',marginTop:'25px'}}>Rekayasa Perangkat Lunak</h1>
+        <p style={{paddingLeft:'40px',marginLeft:'70px'}}>(RPL)
+      </p>
+       <h3 variant="h6" style={{textAlign:'Left'}}>satu bidang profesi yang mendalami<br/>  cara-cara
+      pengembangan perangkat <br/>lunak termasuk pembuatan, 
+       pemeliharaan,<br/> manajemen organisasi pengembangan 
+       perangkat <br/>lunak dan manajemen kualitas.</h3>
       </div>
       
-      <div style={{ paddingLeft: "70px" ,marginTop:'25px',paddingRight:'50'}}>
-      <img src={rpl} alt={paasep.alt} style={{ width: "150px", height: "150px" ,paddingLeft:'50px',paddingTop:'50px' }}></img>
-        <h1 variant="h6" style={{paddingLeft:'90px',fontSize:'20px',}}>Ir.Asep Ali Basah</h1>
-        <p style={{paddingLeft:'40px'}}>
-        Kepala Sekolah Smk Budaya Bangsa</p>
+      <div style={{marginTop:'25px',marginLeft:'200px'}}>
+      <img src={tbsm} alt={paasep.alt} style={{ width: "150px", height: "170px",marginTop:'20px',marginLeft:'50px'}}></img>
+        <h1 variant="h6" style={{fontSize:'20px',marginTop:'15px'}}>Teknik & Bisnis Sepeda Motor</h1>
+        <p style={{paddingLeft:'40px',marginLeft:'70px'}}>
+       (TBSM)</p>
+      <h3 variant="h6" style={{textAlign:'Left'}}>salah satu cabang ilmu teknik mesin<br/> yang mempelajari tentang bagaimana<br/> merancang, membuat dan mengembangkan<br/> alat-alat transportasi darat yang menggunakan<br/> mesin, terutama sepeda motor.</h3>
       </div>
     </div>
     {/* <>
